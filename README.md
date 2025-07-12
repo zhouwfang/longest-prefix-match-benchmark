@@ -1,5 +1,9 @@
 # longest-prefix-match-benchmark
 
+Benchmark for https://github.com/vllm-project/production-stack/pull/581
+
+Run `python benchmark.py`.
+
 Configuration: 500 endpoints, 10000 concurrent tasks.
 
 Setting up the trie with initial data...
