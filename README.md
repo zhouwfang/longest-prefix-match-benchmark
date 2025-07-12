@@ -4,6 +4,7 @@ Benchmark for https://github.com/vllm-project/production-stack/pull/581
 
 Run `python benchmark.py`.
 
+```
 Configuration: 500 endpoints, 10000 concurrent tasks.
 
 Setting up the trie with initial data...
@@ -17,3 +18,4 @@ Running benchmark for the new method (shorter lock holding)...
 
 --- Results ---
 The new method was faster by 25.01%.
+```
